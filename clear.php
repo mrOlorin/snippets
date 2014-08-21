@@ -1,7 +1,7 @@
 <?php
 
 $dir = 'dir_name';
-$toRemove = ['.hg', '.hgtags', 'deploy.bat', 'update.bat', 'deploy.sh', 'pull.sh', 'push.sh', 'tag.sh'];
+$toRemove = ['.hg', '.hgtags', 'deploy.bat', 'update.bat', 'deploy.sh', 'pull.sh', 'push.sh', 'tag.sh', 'nbproject'];
 
 define('DS', DIRECTORY_SEPARATOR);
 $relativePath = '.' . DS . $dir;
